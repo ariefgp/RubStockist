@@ -1,4 +1,4 @@
-# StockSite
+# RubStockist
 
 A Robinhood inspired application built with Flask, React/Redux, SQLAlchemy, and PostgreSQL. This project is a real-time stock exchange application that allows users to trade stocks, monitor their holdings, follow stock performance with watchlists, and stay up to date with financial news.
 
@@ -10,7 +10,7 @@ A Robinhood inspired application built with Flask, React/Redux, SQLAlchemy, and 
 - Bank Info - add your fictional bank info to make deposits & withdrawals, and view your account balance
 - Search - search for stocks by ticker or company name, with predictive search
 - Dark Mode - toggle between dark and light mode, depending on your preference. Preferences are saved to your user account
-- Real-time - see your portfolio and watchlists update in real-time as you buy and sell stocks. StockSite uses live data from the top financial APIs to retrieve stock data
+- Real-time - see your portfolio and watchlists update in real-time as you buy and sell stocks. RubStockist uses live data from the top financial APIs to retrieve stock data
 
 ## Technologies Used
 - Flask: Backend framework for building web applications.
@@ -83,11 +83,11 @@ npm start
 
 8. Navigate to the application in your browser
 
-## 💻 Usage
-To use StockSite, you need to sign up for an account (or use the demo user). You can then create and modify a watchlist, or trade stocks in real-time with your starter account balance. Once you have purchased stocks, you can view your portfolio and holdings. You can also save news articles to read later, and add your fictional bank info to make deposits and withdrawals.
+## Usage
+To use RubStockist, you need to sign up for an account (or use the demo user). You can then create and modify a watchlist, or trade stocks in real-time with your starter account balance. Once you have purchased stocks, you can view your portfolio and holdings. You can also save news articles to read later, and add your fictional bank info to make deposits and withdrawals.
 
-## 🤝 Contributing
+## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📋 License
-StockSite is released under the MIT License. See [MIT License](https://choosealicense.com/licenses/mit/) for details.
+## License
+RubStockist is released under the MIT License. See [MIT License](https://choosealicense.com/licenses/mit/) for details.
