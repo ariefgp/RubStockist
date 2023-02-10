@@ -1,0 +1,302 @@
+.watchlist-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-left: auto;
+    margin-right: 0;
+
+    width: 100%;
+    min-width: fit-content;
+    height: fit-content;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+    border-radius: 20px;
+    /* border: 1px solid black; */
+
+}
+
+.watchlist-container-main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+
+    /* padding-left: 20px; */
+    padding-right: 20px;
+
+    box-sizing: border-box;
+
+    /* border-bottom: 1px solid black; */
+}
+
+.watchlist-container-main-header button{
+    font-size: 20px;
+
+    box-sizing: border-box;
+
+    /* border-bottom: 1px solid black; */
+}
+
+
+/* .watchlist-container h3:first-of-type{
+    margin-left: 20px;
+} */
+
+/* .watchlist-container input:first-of-type{
+    margin-left: 20px;
+    padding-right: 20px;
+} */
+
+.watchlist-container button:first-of-type{
+    /* margin-left: 5px; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+.watchlist-all-watchlists-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.watchlist-individual {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+
+    /* margin-top: 10px; */
+
+    border-top: 1px solid black;
+    /* border-bottom: 1px solid black; */
+
+    box-sizing: border-box;
+
+
+}
+
+.watchlist-individual button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.watchlist-individual-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    max-width: 60%;
+
+}
+
+/* .watchlist-individual-header h4 {
+    padding-left: 20px;
+    color: red;
+
+} */
+
+.watchlist-individual-name-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    align-content: center;
+
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 20px; */
+
+    box-sizing: border-box;
+}
+
+.watchlist-individual-header-buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    align-content: center;
+}
+
+.watchlist-individual-header-buttons-container button, .watchlist-individual-header-buttons-container i {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    align-content: center;
+
+}
+
+.watchlist-individual .watchlist-stock-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+}
+
+.watchlist-individual-name-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.watchlist-individual-button {
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.watchlist-individual-button button {
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.watchlist-stock-individual {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* margin-top: 10px; */
+}
+
+.watchlist-stock-individual-symbol{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+
+    font-size: large;
+    font-weight: 700;
+
+    width: 100%;
+
+    margin-right: 10px;
+
+}
+
+.stock-individual-number-of-shares{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+
+    font-size: small;
+    font-weight: 500;
+
+    width: 100%;
+
+    margin-right: 10px;
+
+}
+
+.watchlist-stock-individual-chart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+    min-width: 100px;
+
+    margin: 10px;
+
+}
+
+.watchlist-stock-individual-price-and-change{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+
+    width: 100%;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.watchlist-stock-individual-price-and-change-positive{
+    color: green;
+}
+
+.watchlist-stock-individual-price-and-change-negative{
+    color: red;
+}
+
+.watchlist-stock-individual-delete-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.watchlist-stock-individual-delete-button button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}

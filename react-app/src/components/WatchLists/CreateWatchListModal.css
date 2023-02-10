@@ -1,0 +1,78 @@
+#modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #modal-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  #create-watchlist-modal-content {
+    position: absolute;
+    /* background-color:white; */
+    border-radius: 20px;
+
+    width: 100%;
+
+  }
+
+  .watchlist-modal-error {
+    color: red;
+  }
+
+
+
+  .create-watchlist-modal-content input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    width: 100%;
+  
+  }
+
+  .create-watchlist-modal-content button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+
+    width: 100%;
+    height: 40px;
+  
+  }
+
+  .create-watchlist-modal-content .watchlist-modal-cancel-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    width: 100%;
+
+    background-color: red;
+
+    border: 1px solid black;
+    outline: none;
+  
+  }
+
+  .create-watchlist-modal-content .watchlist-modal-submit-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    width: 100%;
+
+    background-color: green;
+  
+  }
+
+  

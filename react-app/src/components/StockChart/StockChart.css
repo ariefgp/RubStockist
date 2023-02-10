@@ -1,0 +1,66 @@
+.big-chart-container {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    border-radius: 20px;
+    /* border: 1px solid #000000; */
+    border: none;
+}
+
+.stock-chart-filter-buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 100%;
+}
+
+.stock-chart-filter-buttons-container button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 50px;
+
+    margin: 10px;
+
+    outline: none;
+    border: none;
+    border-bottom: #000000;
+    
+    background-color: transparent;
+    
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.active-filter-button  {
+    color: green
+
+}
+
+/* .stock-chart-filter-buttons-container button:focus {
+    color: green
+
+}
+
+.stock-chart-filter-buttons-container button:active {
+    color: green
+
+} */
+
+
+.apexcharts-canvas {
+    margin-left: auto;
+    margin-right: auto;
+}

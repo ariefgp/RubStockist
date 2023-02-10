@@ -1,0 +1,18 @@
+.stock-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.stock-list-container select {
+    display: flex;
+    width: 100%;
+}
+
+.stock-list-container button {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}

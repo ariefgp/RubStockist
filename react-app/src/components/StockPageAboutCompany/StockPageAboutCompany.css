@@ -1,0 +1,42 @@
+.stock-page-about-company-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+.stock-page-about-company-container-section-header {
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.stock-page-about-company-about-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+.stock-page-about-company-key-statistics-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+.stock-page-about-company-key-statistics-container table{
+    width: 100%;
+
+}

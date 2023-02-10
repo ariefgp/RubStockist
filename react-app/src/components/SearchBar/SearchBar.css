@@ -1,0 +1,124 @@
+.search-bar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    height: 100%;
+    width: 400px;
+}
+
+.search-bar-container form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    height: 100%;
+
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.search-bar-container input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    height: 100%;
+
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+    /* text-align: center; */
+
+    border: none;
+    background-color: transparent;
+}
+
+.search-results-dropdown {
+    position: absolute;
+    top: 100px; /* height of the search bar */
+    width: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 200px;
+    border-radius: 0px 0px 20px 20px;
+  }  
+
+.search-results-dropdown #search-results-ul {
+    display: flex;
+    flex-direction: column;
+
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    border-radius: 20px;
+    
+    background-color: #fff;
+}
+
+.search-results-individual-result {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+/* 
+    overflow: hidden; */
+
+    width: 100%;
+
+    padding: 5px;
+
+    border-bottom: 1px solid #ccc;
+
+    /* cursor: pointer; */
+}
+
+.search-results-individual-result a {
+/* 
+    overflow: hidden; */
+
+    width: 100%;
+
+    /* cursor: pointer; */
+}
+
+.search-results-individual-result-symbol {
+    font-weight: bold;
+}
+
+.search-results-individual-result-spans {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.search-results-dropdown .search-results-individual-result:hover {
+    background-color: #ccc;
+}
+
+.highlight {
+    color: red;
+}
+
+.search-results-dropdown.active {
+    display: block;
+}
+
+.search-results-dropdown:not(.active) {
+    display: none;
+}

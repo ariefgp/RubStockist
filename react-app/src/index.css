@@ -1,0 +1,285 @@
+/* TODO Add site wide styles */
+* {
+    /* font-family: 'Sen', 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  /* height: 100px; */
+  height: fit-content;
+  padding: 30px 20px;
+
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+.navbar-logo-and-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 25%;
+
+  background-color: currentColor;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.navbar-logo-and-name a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20pt;
+  font-weight: 1000;
+
+}
+
+.navbar-logo-and-name img{
+  width: 40px;
+  margin-right: 1rem;
+  /* color: inherit; */
+  /* background-color: red;
+  -webkit-mask-image: url('./images/Logo/path200.svg');
+  mask-image: url('./images/Logo/path200.svg'); */
+}
+
+.navbar-logo-and-name.logo-color-dark img {
+  /* filter: hue-rotate(60deg); */
+  filter: invert(0%)
+}
+
+.navbar-logo-and-name.logo-color-light img {
+  filter: invert(100%)
+}
+
+.navbar-other-parts{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-middle-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+}
+
+.navbar-right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 25%;
+}
+
+.navbar-right-side button {
+  font-weight: 500;
+
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  font-size: 15px;
+  border: 1px;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.login-form-page{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-page-splash-image-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 50%;
+  background-image: url("./images/LoginPage/splash_background_image.jpg") !important;
+  background-color: #ccc;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-form-form-container, .signup-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 50%;
+}
+
+.login-form-form-container input, .signup-form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-form-form-container button, .signup-form-container button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.signup-page-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+
+.signup-page-splash-image-container {
+  background-image: url('./images/SignUpPage/stocks.png');
+  background-color: green;
+  background-size:100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 50%;
+
+}
+
+
+.login-form-form-container form , .signup-form-container form {
+  width: 50%;
+}
+
+.signup-form-errors{
+  color: red;
+  /* width: 100%; */
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+svg {
+  fill: currentColor;
+}
+
+table {
+  width: 100%;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+td {
+  text-align: left;
+  vertical-align: middle;
+  width: 25%;
+}
+
+th {
+  text-align: left;
+  vertical-align: middle;
+}
+
+th:last-child,
+td:last-child,
+th:nth-last-child(2),
+td:nth-last-child(2) {
+  text-align: right;
+}
